@@ -1,0 +1,108 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7f61db34-7bc0-48eb-8a36-b7574d3425bd")
+	(paper "USLetter")
+	(title_block
+		(date "2024-03-02")
+		(rev "A01")
+	)
+	(lib_symbols)
+	(hierarchical_label "CurrentSenseCh1"
+		(shape output)
+		(at 71.12 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "198ba96a-37a8-44df-a3c4-952b7865b6a6")
+	)
+	(hierarchical_label "12V_Lights"
+		(shape output)
+		(at 87.63 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44b76f2d-b3c5-42d9-a883-49d04b5d5c6e")
+	)
+	(hierarchical_label "CurrentSenseCh2"
+		(shape output)
+		(at 71.12 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78d50c97-1f2d-450d-bf79-8090ef9d9509")
+	)
+	(hierarchical_label "GNDPWR"
+		(shape input)
+		(at 87.63 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c09bf153-28e8-413d-b1f0-38eee6f19531")
+	)
+	(hierarchical_label "RelaySelectHighPreference"
+		(shape input)
+		(at 71.12 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d493e8b1-ab40-432f-8a06-f1875752458e")
+	)
+	(hierarchical_label "12V_LowPreference"
+		(shape input)
+		(at 71.12 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e420cf35-9464-4548-85ec-4d247e599ad2")
+	)
+	(hierarchical_label "GND_Lights"
+		(shape output)
+		(at 87.63 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f74376c3-d203-46e0-9b71-ef3c918f5e92")
+	)
+	(hierarchical_label "12V_HighPreference"
+		(shape input)
+		(at 71.12 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe10e861-834b-4176-8fe2-1f4dd549a647")
+	)
+)

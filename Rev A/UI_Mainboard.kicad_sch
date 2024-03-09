@@ -1,0 +1,72 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c1ec7d6c-17b3-4728-84e2-bc537c1d83bb")
+	(paper "USLetter")
+	(title_block
+		(date "2024-03-02")
+		(rev "A01")
+	)
+	(lib_symbols)
+	(hierarchical_label "LED_RCLK"
+		(shape input)
+		(at 100.33 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cf85162-a17f-4885-b089-61a428c89ec9")
+	)
+	(hierarchical_label "BrightnessKnob"
+		(shape output)
+		(at 100.33 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c49456ba-d310-41b0-9673-213f3655042d")
+	)
+	(hierarchical_label "LED_DATA"
+		(shape input)
+		(at 100.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce2e264c-0481-41e7-aea4-e719eb7f1a25")
+	)
+	(hierarchical_label "~{LEDsOn}"
+		(shape input)
+		(at 100.33 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9a675e0-0a56-477f-aa7b-a62520090719")
+	)
+	(hierarchical_label "LED_CLK"
+		(shape input)
+		(at 100.33 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eeb9e838-4a78-4f67-8353-3dc245e8360d")
+	)
+)

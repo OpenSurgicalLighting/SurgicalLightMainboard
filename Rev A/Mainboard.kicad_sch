@@ -1,25 +1,273 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 352d7abe-fc72-4473-8b68-62eecf44f496)
-
-  (paper "USLetter")
-
-  (title_block
-    (title "Main")
-    (date "2024-03-02")
-    (rev "A01")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "CHANGELOG/NOTES\n\nREV A: " (at 19.685 22.86 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fba33dfb-ab80-431d-9e1c-7f90a16c8c17)
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "352d7abe-fc72-4473-8b68-62eecf44f496")
+	(paper "USLetter")
+	(title_block
+		(title "Main")
+		(date "2024-03-02")
+		(rev "A01")
+	)
+	(lib_symbols)
+	(text "CHANGELOG/NOTES\n\nREV A: "
+		(exclude_from_sim no)
+		(at 19.685 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba33dfb-ab80-431d-9e1c-7f90a16c8c17")
+	)
+	(sheet
+		(at 119.38 73.66)
+		(size 45.72 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1abda63-534b-4dc2-8192-e320ae66a6c0")
+		(property "Sheetname" "Battery Charging"
+			(at 119.38 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatteryChargingModule_Mainboard.kicad_sch"
+			(at 119.38 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 114.3)
+		(size 45.72 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf2e09ac-c0d2-4892-85e7-02333ca0e89f")
+		(property "Sheetname" "UI"
+			(at 119.38 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UI_Mainboard.kicad_sch"
+			(at 119.38 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{LEDsOn}" input
+			(at 119.38 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10e563fc-1ae6-48ff-9f53-18483e090907")
+		)
+		(pin "LED_DATA" input
+			(at 119.38 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95f2f5be-5017-4d49-84c8-ee572924d455")
+		)
+		(pin "LED_CLK" input
+			(at 119.38 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "266d60f4-ccbf-4d4c-85ea-08e4cd5506cd")
+		)
+		(pin "LED_RCLK" input
+			(at 119.38 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a51206d4-77cb-421c-834b-534a8e2cc2bc")
+		)
+		(pin "BrightnessKnob" output
+			(at 119.38 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26c824f0-6076-45d8-8483-10ef6ef0b5c4")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 73.66)
+		(size 41.91 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c21d6bae-3554-48ef-9769-7d9430e10e1a")
+		(property "Sheetname" "Power Module"
+			(at 64.77 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerModule_Mainboard.kicad_sch"
+			(at 64.77 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V_LowPreference" input
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d44708b-c935-453a-9543-53e95de22e9b")
+		)
+		(pin "12V_HighPreference" input
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1e6c800-14e1-4dc3-a354-d21a4b93949d")
+		)
+		(pin "GNDPWR" input
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d801f4c-c0c6-4881-9604-b523cb9358ce")
+		)
+		(pin "RelaySelectHighPreference" input
+			(at 64.77 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98c08e4d-8b65-464d-8571-dd6c3192f2d9")
+		)
+		(pin "12V_Lights" output
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3042c35f-6ae9-4138-b337-67ec3cbd7791")
+		)
+		(pin "GND_Lights" output
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88067179-80b3-4b7b-a060-0e55bd4e83e9")
+		)
+		(pin "CurrentSenseCh1" output
+			(at 64.77 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce3107ed-e4cf-417e-8cbb-a312467b6fc6")
+		)
+		(pin "CurrentSenseCh2" output
+			(at 64.77 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91cc198e-3d3f-4844-8268-67a094c24fd6")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

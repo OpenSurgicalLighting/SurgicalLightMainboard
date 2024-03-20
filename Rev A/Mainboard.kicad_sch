@@ -22,6 +22,44 @@
 		(uuid "fba33dfb-ab80-431d-9e1c-7f90a16c8c17")
 	)
 	(sheet
+		(at 39.37 129.54)
+		(size 55.88 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3314245e-3acf-4ab5-9a11-0108b1ec86ff")
+		(property "Sheetname" "MCU With Multiplexers"
+			(at 39.37 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCUModule.kicad_sch"
+			(at 39.37 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 119.38 73.66)
 		(size 45.72 33.02)
 		(fields_autoplaced yes)

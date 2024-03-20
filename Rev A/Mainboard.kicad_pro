@@ -454,8 +454,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "MosfetsRelaysSwitches_Surgical_Lighting",
+      "Modules_SurgicalLighting"
+    ],
+    "pinned_symbol_libs": [
+      "Modules"
+    ]
   },
   "meta": {
     "filename": "Mainboard.kicad_pro",
@@ -655,6 +660,10 @@
     [
       "bf2e09ac-c0d2-4892-85e7-02333ca0e89f",
       "UI"
+    ],
+    [
+      "3314245e-3acf-4ab5-9a11-0108b1ec86ff",
+      "MCU With Multiplexers"
     ]
   ],
   "text_variables": {

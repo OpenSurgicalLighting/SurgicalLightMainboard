@@ -197,16 +197,6 @@
 			)
 			(uuid "c1e6c800-14e1-4dc3-a354-d21a4b93949d")
 		)
-		(pin "GNDPWR" input
-			(at 106.68 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6d801f4c-c0c6-4881-9604-b523cb9358ce")
-		)
 		(pin "RelaySelectHighPreference" input
 			(at 64.77 102.87 180)
 			(effects
@@ -216,26 +206,6 @@
 				(justify left)
 			)
 			(uuid "98c08e4d-8b65-464d-8571-dd6c3192f2d9")
-		)
-		(pin "12V_Lights" output
-			(at 106.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3042c35f-6ae9-4138-b337-67ec3cbd7791")
-		)
-		(pin "GND_Lights" output
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "88067179-80b3-4b7b-a060-0e55bd4e83e9")
 		)
 		(pin "CurrentSenseCh1" output
 			(at 64.77 96.52 180)
@@ -256,6 +226,26 @@
 				(justify left)
 			)
 			(uuid "91cc198e-3d3f-4844-8268-67a094c24fd6")
+		)
+		(pin "PWM_Lights2" input
+			(at 64.77 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "468a0245-71f5-4d56-9d16-73da4832a1cc")
+		)
+		(pin "PWM_Lights1" input
+			(at 64.77 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e9eacd4-b6ee-4f58-ab2e-b2a794ff9d12")
 		)
 		(instances
 			(project "Mainboard"
